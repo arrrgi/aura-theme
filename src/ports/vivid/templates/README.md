@@ -44,7 +44,7 @@ Ensure you have Vivid installed on your system. You can find installation instru
 2. Fetch the `{{ slug}}-dark.yml` and `{{ slug }}-dark-soft.yml` files from the [repository](https://github.com/daltonmenezes/{{ slug }}) with the following command:
 
    ```sh
-   curl -o ~/.config/vivid/themes/{{ slug }}-dark.yml https://raw.githubusercontent.com/daltonmenezes/{{ slug }}/main/vivid/{{ slug }}-dark.yml
+   curl -o ~/.config/vivid/themes/{{ slug }}-dark.yml https://raw.githubusercontent.com/daltonmenezes/{{ slug }}/main/packages/vivid/{{ slug }}-dark.yml
    ```
 
    **NOTE:** You can replace `{{ slug }}-dark.yml` with `{{ slug }}-dark-soft.yml` in the command above to download the Dark Soft variant.

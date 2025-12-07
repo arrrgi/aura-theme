@@ -66,7 +66,7 @@ Ensure you have Vivid installed on your system. You can find installation instru
 2. Fetch the `aura-theme-dark.yml` and `aura-theme-dark-soft.yml` files from the [repository](https://github.com/daltonmenezes/aura-theme) with the following command:
 
    ```sh
-   curl -o ~/.config/vivid/themes/aura-theme-dark.yml https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/vivid/aura-theme-dark.yml
+   curl -o ~/.config/vivid/themes/aura-theme-dark.yml https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/vivid/aura-theme-dark.yml
    ```
 
    **NOTE:** You can replace `aura-theme-dark.yml` with `aura-theme-dark-soft.yml` in the command above to download the Dark Soft variant.
