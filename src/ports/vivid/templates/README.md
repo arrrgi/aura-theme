@@ -2,9 +2,9 @@
 
 # Installation
 
-Ensure you have Vivid installed on your system. You can find installation instructions on the [Vivid GitHub repository](https://github.com/sharkdp/vivid).
+Ensure you have **Vivid** installed on your system. You can find installation instructions on the [Vivid GitHub repository](https://github.com/sharkdp/vivid).
 
-1. Create a directory to store custom themes for Vivid (if it doesn't already exist):
+1. Create a directory to store custom themes for **Vivid** (if it doesn't already exist):
 
    ```sh
    mkdir -p ~/.config/vivid/themes
@@ -18,7 +18,7 @@ Ensure you have Vivid installed on your system. You can find installation instru
 
    **NOTE:** You can replace `{{ slug }}-dark.yml` with `{{ slug }}-dark-soft.yml` in the command above to download the Dark Soft variant.
 
-3. Add the Aura theme to your shell RC file (e.g., `~/.bashrc`, `~/.zshrc`, etc.) by sourcing the theme directly from your local Vivid themes:
+3. Add the {{ displayName }} to your shell RC file (e.g., `~/.bashrc`, `~/.zshrc`, etc.) by sourcing the theme directly from your local Vivid themes:
 
    ```sh
    export LS_COLORS="$(vivid generate ${HOME}/.config/vivid/themes/{{ slug }}-dark.yml)"
@@ -47,9 +47,9 @@ Ensure you have Vivid installed on your system. You can find installation instru
 
 <br>
 
-> **A note on using Vivid's internal themes**
+> A note on using **Vivid's** internal themes
 >
-> Vivid comes with a set of built-in themes that you can use without needing to download any additional files. Native support within Vivid for the Aura theme may be added in the future, pending approval and an updated build by the Vivid maintainer.
+> **Vivid** comes with a set of built-in themes that you can use without needing to download any additional files. Native support within **Vivid** for the {{ displayName }} may be added in the future, pending PR approval and an updated build by the Vivid maintainer.
 
 {{{ done }}}
 
