@@ -35,7 +35,7 @@ Ensure you already have **Zellij** installed on your system. You can find instal
 2. Fetch the `aura-theme-dark.kdl` and `aura-theme-dark-soft.kdl` files from the [repository](https://github.com/daltonmenezes/aura-theme) with the following command:
 
    ```sh
-   curl -o ~/.config/zellij/themes/aura-theme-dark.kdl https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages-zellij/aura-theme-dark.kdl
+   curl -o ~/.config/zellij/themes/aura-theme-dark.kdl https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/zellij/aura-theme-dark.kdl
    ```
 
    **NOTE:** You can replace `aura-theme-dark.kdl` with `aura-theme-dark-soft.kdl` in the command above to download the Dark Soft variant instead.
