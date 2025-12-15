@@ -10,7 +10,6 @@ group: '#82e2ff' # blue
 permission:
   read: '#61ffca' # green
   write: '#ffca85' # orange
-  execute: '#ff6767' # red
   exec: '#ff6767' # red
   exec-sticky: '#a277ff' # purple
   no-access: '#6d6d6d' # gray
