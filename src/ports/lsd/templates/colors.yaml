@@ -10,7 +10,6 @@ group: '{{ accent32 }}' # blue
 permission:
   read: '{{ accent2 }}' # green
   write: '{{ accent3 }}' # orange
-  execute: '{{ accent5 }}' # red
   exec: '{{ accent5 }}' # red
   exec-sticky: '{{ accent1 }}' # purple
   no-access: '{{ accent8 }}' # gray
