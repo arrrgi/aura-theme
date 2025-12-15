@@ -19,7 +19,7 @@ permission:
 date:
   hour-old: '#54c59f' # green
   day-old: '#49c29a' # teal
-  older: '#3ea7847f' # dark teal
+  older: '#3ea784' # dark teal
 size:
   none: '#6d6d6d' # gray
   small: '#54c59f' # green

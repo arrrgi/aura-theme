@@ -16,11 +16,28 @@ export async function LsdPort(Aura: AuraAPI) {
   const version = '1.0.0'
   const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-lsd-preview.png?raw=true`
 
+  // Helper function to remove alpha channel from chosen theme colors as lsd does not support them
+  const stripAlpha = (color: string): string => {
+    if (color.length === 9 && color.startsWith('#')) {
+      return color.substring(0, 7)
+    }
+    return color
+  }
+
+  // Strip alpha channels from all accent colors
+  const stripAlphaFromScheme = (scheme: Record<string, string>) => {
+    const stripped: Record<string, string> = {}
+    for (const [key, value] of Object.entries(scheme)) {
+      stripped[key] = typeof value === 'string' ? stripAlpha(value) : value
+    }
+    return stripped
+  }
+
   await createPort({
     template: resolve(templateFolder, `colors.yaml`),
     outputFileName: `dark-colors`,
     replacements: {
-      ...colorSchemes.dark,
+      ...stripAlphaFromScheme(colorSchemes.dark),
       ...info,
       version,
     },
@@ -30,7 +47,7 @@ export async function LsdPort(Aura: AuraAPI) {
     template: resolve(templateFolder, `colors.yaml`),
     outputFileName: `dark-soft-colors`,
     replacements: {
-      ...colorSchemes.darkSoft,
+      ...stripAlphaFromScheme(colorSchemes.darkSoft),
       ...info,
       version,
     },
