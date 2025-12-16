@@ -41,7 +41,7 @@
     "editorLineNumber.foreground": "{{ accent17 }}",
     "editorIndentGuide.activeBackground1": "{{ accent8 }}",
     "editorCursor.foreground": "{{ accent1 }}",
-    "editor.selectionBackground": "{{ accent20 }}",
+    "editor.selectionBackground": "{{ accent22 }}",
     "editor.selectionHighlightBackground": "{{ accent20 }}",
     "editor.inactiveSelectionBackground": "{{ accent20 }}",
     "editor.wordHighlightBackground": "{{ accent20 }}",
