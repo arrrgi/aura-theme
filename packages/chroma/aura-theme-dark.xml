@@ -4,7 +4,7 @@
 # Theme version: 1.0.0
 -->
 
-<style name="Aura Theme Dark">
+<style name="aura-theme-dark">
   <!-- Base -->
   <entry type="Background" style="bg:#15141b #edecee"/>
   <entry type="CodeLine" style="#edecee"/>

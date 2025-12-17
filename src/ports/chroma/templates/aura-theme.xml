@@ -4,7 +4,7 @@
 # Theme version: {{ version }}
 -->
 
-<style name="{{ displayName }}">
+<style name="{{ slug }}">
   <!-- Base -->
   <entry type="Background" style="bg:{{ accent12 }} {{ accent7 }}"/>
   <entry type="CodeLine" style="{{ accent7 }}"/>

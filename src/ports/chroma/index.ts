@@ -17,17 +17,19 @@ export async function ChromaPort(Aura: AuraAPI) {
       ...colorSchemes.dark,
       ...info,
       version,
+      slug: `${info.slug}-dark`,
       displayName: `${info.displayName} Dark`,
     },
   })
 
   await createPort({
     template: resolve(templateFolder, `${info.slug}.xml`),
-    outputFileName: `${info.slug}-soft-dark`,
+    outputFileName: `${info.slug}-dark-soft`,
     replacements: {
       ...colorSchemes.darkSoft,
       ...info,
       version,
+      slug: `${info.slug}-dark-soft`,
       displayName: `${info.displayName} Dark Soft`,
     },
   })
