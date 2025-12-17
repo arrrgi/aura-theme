@@ -7,7 +7,7 @@ export async function ChromaPort(Aura: AuraAPI) {
   const { info } = constants
 
   const portName = 'Chroma'
-  const version = '1.0.0'
+  const version = '1.0.1'
   const previewURL = `https://github.com/${info.author.username}/assets/blob/master/images/${info.slug}/aura-chroma-preview.png?raw=true`
 
   await createPort({
