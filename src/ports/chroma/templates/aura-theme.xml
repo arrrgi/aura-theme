@@ -101,7 +101,7 @@
   <entry type="GenericTraceback" style="{{ accent5 }}"/>
 
   <!-- Punctuation -->
-  <entry type="Punctuation" style="{{ accent7 }}"/>
+  <entry type="Punctuation" style="{{ accent6 }}"/>
   <entry type="Text" style="{{ accent7 }}"/>
   <entry type="TextWhitespace" style="{{ accent7 }}"/>
 </style>
